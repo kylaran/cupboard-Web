@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './HomePage/homepage';
@@ -6,33 +6,28 @@ import { HomeContentComponent } from './HomePage/home-content/home-content.compo
 import { CupboardHeaderComponent } from './HomePage/cupboard-header/cupboard-header.component';
 import { RouterModule } from '@angular/router';
 import {SwiperModule} from 'swiper/angular';
-import { SlidesComponent } from './HomePage/slides/slides.component';
 import { ReviewsComponent } from './HomePage/reviews/reviews.component';
-import {MatIconModule} from '@angular/material/icon';
-
-
 
 const routes = [
   {path: '', component: HomepageComponent}
 ]
 
-@NgModule({ 
+@NgModule({
   declarations: [
     AppComponent,
+    HomepageComponent,
     HomeContentComponent,
     CupboardHeaderComponent,
-    SlidesComponent,
-    ReviewsComponent,
-
+    ReviewsComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    SwiperModule,
-    MatIconModule
+    SwiperModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
 })
 export class AppModule { }
 
