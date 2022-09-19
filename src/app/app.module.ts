@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './HomePage/homepage.component';
+import { HomepageComponent } from './HomePage/homepage';
 import { HomeContentComponent } from './HomePage/home-content/home-content.component';
 import { CupboardHeaderComponent } from './HomePage/cupboard-header/cupboard-header.component';
 import { RouterModule } from '@angular/router';
@@ -19,7 +19,6 @@ const routes = [
 @NgModule({ 
   declarations: [
     AppComponent,
-    HomepageComponent,
     HomeContentComponent,
     CupboardHeaderComponent,
     SlidesComponent,
