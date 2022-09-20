@@ -1,1 +1,14 @@
-<p>home-content works!</p>
+<div>
+  <swiper [config]="config">
+    <ng-template swiperSlide *ngFor="let in of slides(3); let i = index">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="src/assets/img/slide{{i+1}}.jpg"></div>
+    </div>
+  </ng-template>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</swiper>
+</div>
