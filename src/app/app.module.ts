@@ -7,6 +7,9 @@ import { CupboardHeaderComponent } from './HomePage/cupboard-header/cupboard-hea
 import { RouterModule } from '@angular/router';
 import {SwiperModule} from 'swiper/angular';
 import { ReviewsComponent } from './HomePage/reviews/reviews.component';
+import {MatIconModule} from '@angular/material/icon'
+
+
 
 const routes = [
   {path: '', component: HomepageComponent}
@@ -23,7 +26,9 @@ const routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    SwiperModule
+    SwiperModule,
+    MatIconModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
