@@ -1,12 +1,6 @@
 <div>
     <div ng-controller="MyCtrl">
         <div ng-repeat="review in reviews">
-        <blockquote>
-             <h3>{{reviews.name}}</h3>
-             <h3>{{reviews.stars}}</h3>
-             <h5 ><small><i>{{reviews.email}}</i></small></h5>
-             <p>{{reviews.message}}</p>
-        </blockquote>
         </div>
         <form>
              <div class="input-group">
@@ -20,9 +14,15 @@
             <div (click)="click2Star()">
               <mat-icon class="star">{{stars[1].star}}</mat-icon>
             </div>
-             <mat-icon>star</mat-icon>
-             <mat-icon>star</mat-icon>
-             <mat-icon>star</mat-icon>
+            <div (click)="click3Star()">
+             <mat-icon class="star">{{stars[2].star}}</mat-icon>
+            </div>
+            <div (click)="click4Star()">
+               <mat-icon class="star">{{stars[3].star}}</mat-icon>
+              </div>
+              <div (click)="click5Star()">
+               <mat-icon class="star">{{stars[4].star}}</mat-icon>
+              </div>
              </div>
         </form>
         <textarea class="form-control" rows="5" ng-model="review.message">

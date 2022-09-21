@@ -61,4 +61,46 @@ export class ReviewsComponent implements OnInit {
       }
     }
   }
+  click3Star(){
+    for (let i = 0; i < this.stars.length; i++)
+    {
+      if (i < 3 )
+      {
+        this.stars[i].selected = true;
+        this.stars[i].star = "star";
+      }
+      else {
+        this.stars[i].selected = false;
+        this.stars[i].star = "star_border";
+      }
+    }
+  }
+  click4Star(){
+    for (let i = 0; i < this.stars.length; i++)
+    {
+      if (i < 4 )
+      {
+        this.stars[i].selected = true;
+        this.stars[i].star = "star";
+      }
+      else {
+        this.stars[i].selected = false;
+        this.stars[i].star = "star_border";
+      }
+    }
+  }
+  click5Star(){
+    for (let i = 0; i < this.stars.length; i++)
+    {
+      if (i < 5 )
+      {
+        this.stars[i].selected = true;
+        this.stars[i].star = "star";
+      }
+      else {
+        this.stars[i].selected = false;
+        this.stars[i].star = "star_border";
+      }
+    }
+  }
 }
