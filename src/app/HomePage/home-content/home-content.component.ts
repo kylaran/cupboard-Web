@@ -11,14 +11,9 @@ import { SwiperComponent } from 'swiper/angular';
 export class HomeContentComponent implements OnInit {
 
   config: SwiperOptions = {
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
-    },
+    slidesPerView:1,
+setWrapperSize:true,
+    navigation:true,
     spaceBetween: 30
   };
 
