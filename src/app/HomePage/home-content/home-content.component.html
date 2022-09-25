@@ -13,7 +13,7 @@
 <div>
   <swiper [config]="config">
     <ng-template swiperSlide *ngFor="let in of slides(3); let i = index">
-    <div class="swiper-wrapper" style=" width: 45%;">
+    <div class="swiper-wrapper" >
       <div class="swiper-slide"><img class="sizeSlide" src="/assets/img/slide{{i+1}}.jpg"></div>
     </div>
   </ng-template>

@@ -8,7 +8,7 @@ import {HomeFeedback} from 'src/services/objectViews';
 })
 export class HomeFeedbackComponent implements OnInit {
   feedback: HomeFeedback = {
-    namber: 0,
+    phone: 0,
     message: ""
   };
   addFeedbackStatus = '';

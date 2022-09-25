@@ -12,6 +12,6 @@ export interface Stars {
   star: string;
 }
 export interface HomeFeedback {
-  namber: number;
+  phone: number;
   message: string;
 }
