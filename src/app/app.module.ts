@@ -7,7 +7,8 @@ import { CupboardHeaderComponent } from './HomePage/cupboard-header/cupboard-hea
 import { RouterModule } from '@angular/router';
 import {SwiperModule} from 'swiper/angular';
 import { ReviewsComponent } from './HomePage/reviews/reviews.component';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { HomeFeedbackComponent } from './HomePage/home-feedback/home-feedback.component'
 
 
 
@@ -21,7 +22,8 @@ const routes = [
     HomepageComponent,
     HomeContentComponent,
     CupboardHeaderComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    HomeFeedbackComponent
   ],
   imports: [
     BrowserModule,

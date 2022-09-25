@@ -1,8 +1,19 @@
+<div class="outline"><h3 align="center">ПОЧЕМУ ВЫБИРАЮТ ИМЕННО НАС</h3></div>
+<div class="my-flex-container">
+  <div class="my-flex-block"> </div><img src="/assets/icon/1.svg" alt=""><p>Лучшие специалисты</p>
+  <div class="my-flex-block"> </div><img src="/assets/icon/2.svg" alt=""><p>Работаем с регионами</p> 
+  <div class="my-flex-block"> </div><img src="/assets/icon/3.svg" alt=""><p>Расрочка до 12 месяцев</p>
+  <div class="my-flex-block"> </div><img src="/assets/icon/4.svg" alt=""><p>Гарантия качества</p>
+  <div class="my-flex-block"> </div><img src="/assets/icon/5.svg" alt=""><p>Боолее 10 лет на рынке</p>
+</div>
+<div>
+
+</div>
 
 <div>
   <swiper [config]="config">
     <ng-template swiperSlide *ngFor="let in of slides(3); let i = index">
-    <div class="swiper-wrapper">
+    <div class="swiper-wrapper" style=" width: 45%;">
       <div class="swiper-slide"><img class="sizeSlide" src="/assets/img/slide{{i+1}}.jpg"></div>
     </div>
   </ng-template>
@@ -13,4 +24,3 @@
     <div class="swiper-button-prev"></div>
 </swiper>
 </div>
-

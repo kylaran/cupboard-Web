@@ -11,3 +11,7 @@ export interface Stars {
   selected:boolean;
   star: string;
 }
+export interface HomeFeedback {
+  namber: number;
+  message: string;
+}
