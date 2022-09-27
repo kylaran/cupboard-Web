@@ -57,10 +57,9 @@
     max-height: 400px;
   }
   .my-flex-container{
-    width: 40px;
-    height: 40px;
     display: flex;
     justify-content: space-between;
+    
   }
   .outline{
 padding: 20px;
@@ -68,6 +67,11 @@ padding: 20px;
 .swiper-wrapper{
     width: 45%;
 }
+.my-flex-block[img ="/assets/icon/5.svg"]{
+    width: 40px;
+    height: 40px;
+}
+
 
   
   

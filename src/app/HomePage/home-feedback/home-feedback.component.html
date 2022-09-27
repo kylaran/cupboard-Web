@@ -1,5 +1,10 @@
+
 <div class="input-group">
-<input  type="number" ng-model="feedback.phone" />
-<input type="checkbox" (click)="addFeedback()"/>
+<input  type="phone" ng-model="feedback.phone" />
+<input type="checkbox" 
+style=" position:absolute;
+top: 30px;
+left: 200px;" 
+(click)="addFeedback()"/>
 <p>{{addFeedbackStatus}}</p>
 </div>
