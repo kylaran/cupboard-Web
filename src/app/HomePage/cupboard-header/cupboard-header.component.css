@@ -2,3 +2,21 @@
     position: absolute;
     right: 2px;
 }
+.style{
+    font-family:Segoe Script;
+    color:aliceblue;
+}
+.headercolor{
+background-color: #8b8889!important;
+}
+.nav-link{
+    color: black;
+}
+.nav-link {
+    color: aliceblue;
+}
+.homepage{
+    color: aliceblue;
+}
+
+

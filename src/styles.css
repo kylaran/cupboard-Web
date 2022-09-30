@@ -17,8 +17,12 @@ html {
 }
 
 .swiper-slide {
-  background: #f1f1f1;
+  background: none;
   color: #000;
   text-align: center;
   line-height: 300px;
 }
+p{
+  color: aliceblue!important;
+}
+
