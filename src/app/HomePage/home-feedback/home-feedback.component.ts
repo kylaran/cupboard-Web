@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import {HomeFeedback} from 'src/services/objectViews';
+
 
 @Component({
   selector: 'app-home-feedback',
@@ -7,16 +8,14 @@ import {HomeFeedback} from 'src/services/objectViews';
   styleUrls: ['./home-feedback.component.css']
 })
 export class HomeFeedbackComponent implements OnInit {
-  feedback: HomeFeedback = {
-    phone: 0,
-    message: ""
-  };
-  addFeedbackStatus = '';
+  popup = false
+  @Output() close = new  EventEmitter<void>()
+  
+  
+  constructor() {
+   }
+  
 
-  constructor() { }
-  addFeedback(){
-this.addFeedbackStatus = 'Введите номер телефона';
-  }
 
   ngOnInit(): void {
   }

@@ -1,7 +1,13 @@
-
-<div class="input-group">
-<input  type="phone" ng-model="feedback.phone" />
-<input type="checkbox" class="checkbox"
-(click)="addFeedback()"/>
-<p>{{addFeedbackStatus}}</p>
-</div>
+<div class="popup-bg">
+    <div class="popup">
+    <nav class="navbar">
+        <h3>Заказать звонок</h3></nav> 
+        <form action="">
+        <input type="text" name="popup-form" placeholder="Ваше имя">
+        <input type="phone" name="popup-form" placeholder="Ваш номер телефона">
+        <input type="submit" value="Отправить заявку">
+        </form>
+        <button  class="btn"(click)="close.emit()">Close</button>
+    </div>
+    </div>
+    

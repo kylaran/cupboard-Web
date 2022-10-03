@@ -1,4 +1,7 @@
 <app-cupboard-header></app-cupboard-header>
+<app-home-feedback
+*ngIf="modal"
+ (close)="modal = false"></app-home-feedback>
 <app-home-content></app-home-content>
 <app-reviews></app-reviews>
-<app-home-feedback></app-home-feedback>
+

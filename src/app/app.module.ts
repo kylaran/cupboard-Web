@@ -9,7 +9,7 @@ import {SwiperModule} from 'swiper/angular';
 import { ReviewsComponent } from './HomePage/reviews/reviews.component';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeFeedbackComponent } from './HomePage/home-feedback/home-feedback.component'
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 const routes = [
@@ -23,13 +23,16 @@ const routes = [
     HomeContentComponent,
     CupboardHeaderComponent,
     ReviewsComponent,
-    HomeFeedbackComponent
+    HomeFeedbackComponent, 
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     SwiperModule,
-    MatIconModule
+    MatIconModule,
+    FormsModule, 
+    ReactiveFormsModule,
+    
     
   ],
   providers: [],

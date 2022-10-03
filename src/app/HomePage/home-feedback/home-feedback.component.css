@@ -1,5 +1,31 @@
-.checkbox{
-    position:absolute;
-top: 30px;
-left: 200px;
+.popup-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+.popup{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    transform: translate(-50%, 50%);
+    margin-top: 0%;
+}
+.popup-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.popup-form input{
+    width: 40%;
+    border: 2px solid #000;
+    font-size: 20px;
+    margin-bottom: 30px;
+    height: 40px;
 }
