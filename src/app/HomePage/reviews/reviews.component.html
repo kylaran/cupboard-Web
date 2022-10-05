@@ -28,9 +28,5 @@
         <textarea class="form-control" rows="5" ng-model="review.message">
         </textarea>
     <input type="submit" class="btn btn-block btn-success" ng-click="addReview()" value="Submit review" />
-    <button class="btn" (click)="modal = true">Заказать звонок</button>
-    <app-home-feedback
-*ngIf="modal"
- (close)="modal = false"></app-home-feedback>
    </div>
 </div>

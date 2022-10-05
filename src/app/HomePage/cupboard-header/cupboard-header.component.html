@@ -14,7 +14,11 @@
           <a class="nav-link" href="#">Галерея</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Контакты</a>
+          <button class="btn" (click)="modal = true">Контакты</button>
+          <app-home-feedback
+          *ngIf="modal"
+           (close)="modal = false">
+          </app-home-feedback>
         </li>
       </ul>
     </div>

@@ -22,7 +22,7 @@ html {
   text-align: center;
   line-height: 300px;
 }
-p{
+p, a{
   color: aliceblue!important;
 }
 

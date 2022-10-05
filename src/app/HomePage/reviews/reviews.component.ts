@@ -14,7 +14,7 @@ export class ReviewsComponent implements OnInit {
     message: ""
   };
   stars: Stars[] = new Array(5);
-  modal = false;
+  
 
   constructor() {
    }

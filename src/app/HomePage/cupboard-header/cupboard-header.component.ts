@@ -7,6 +7,7 @@ import { Component, OnInit, NgModule } from '@angular/core';
   styleUrls: ['./cupboard-header.component.css']
 })
 export class CupboardHeaderComponent implements OnInit {
+  modal = false;
 
   constructor() { }
 
