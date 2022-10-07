@@ -79,8 +79,26 @@ color: aliceblue;
 .filter{
   filter: invert(48%) sepia(79%)  brightness(200%) contrast(119%);
 }
-
-
+.Title{
+  border: 2px solid transparent; width: 500px;
+  padding: 3px;
+  text-align: center;
+  border-radius: 20px;
+  color:aliceblue
+}
+.img-container{
+  width: 120px;
+  height: 120px;
+}
+.my-container{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  text-align: center;
+  color: aliceblue;
+  padding: 5rem;
+}
   
   
   
