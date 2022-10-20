@@ -1,5 +1,7 @@
 .star{
 color: yellow;
 }
-
+.stars{
+    display: flex;
+}
 

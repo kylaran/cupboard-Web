@@ -1,6 +1,6 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light headercolor">
-  <div class="hader-item"><h1 class="style">Катрин</h1></div>
+  <div class="hader-item"><h1 class="style">Светлана</h1></div>
   <div class="container-fluid">
     <button class="navbar-toggler navbar-toggler-right" type="button" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
@@ -11,10 +11,10 @@
           <a class="nav-link active" aria-current="page" routerLink="/" class="homepage">Главная</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Галерея</a>
+          <a class="nav-link active" href="galery">Галерея</a>
         </li>
         <li class="nav-item">
-          <button class="btn" (click)="modal = true">Контакты</button>
+          <a class="nav-link active"  (click)="modal = true">Контакты</a>
           <app-home-feedback
           *ngIf="modal"
            (close)="modal = false">

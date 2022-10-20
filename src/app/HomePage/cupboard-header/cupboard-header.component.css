@@ -12,6 +12,10 @@ background-color: #8b8889!important;
 .nav-link{
     color: black;
 }
-
+.fa-bars{
+position: absolute;
+    right: 15px;
+    top: 15px;
+}
 
 
