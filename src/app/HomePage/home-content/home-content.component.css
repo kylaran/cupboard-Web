@@ -63,7 +63,7 @@
   justify-content:space-around;
   flex-wrap: wrap;
   width: 100%;
-  padding-left: 70px;
+  padding-left: 65px;
   }
   .outline{
 padding: 20px;
@@ -77,6 +77,7 @@ color: aliceblue;
 .my-flex-block{
     width: 70px;
     height: 50px;
+    padding-top: 15px;
     }
 .filter{
   filter: invert(48%) sepia(79%)  brightness(200%) contrast(119%);
@@ -140,6 +141,7 @@ margin-top: 306px;
   color:aliceblue;
   padding: 50px;
 }
+
   
   
   
