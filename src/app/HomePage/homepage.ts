@@ -8,7 +8,8 @@ import { Reviews} from "src/services/objectViews"
   styleUrls: ['homepage.css']
 })
 export class HomepageComponent {
-modal = false
+modal1 = false
+modal2 = false
   constructor() { }
 
 

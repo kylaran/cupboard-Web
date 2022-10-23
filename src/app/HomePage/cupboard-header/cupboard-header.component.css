@@ -3,7 +3,6 @@
     right: 2px;
 }
 .style{
-    font-family:Segoe Script;
     color:aliceblue;
     margin-left: 5px;
 }
@@ -20,9 +19,8 @@ position: absolute;
 }
 .style2{
     position: absolute;
-    margin-top: -60px;
-    margin-left: 70px;
-    font-family:Segoe Script;
+    margin-top: -55px;
+    margin-left: 60px;
     color:aliceblue;
 }
 

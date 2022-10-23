@@ -14,10 +14,17 @@
           <a class="nav-link active" href="galery">Галерея</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active"  (click)="modal = true">Контакты</a>
+          <a class="nav-link active"  (click)="modal1 = true">Услуги</a>
+          <app-detailspage
+          *ngIf="modal1"
+           (close)="modal1 = false">
+          </app-detailspage>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  (click)="modal2 = true">Контакты</a>
           <app-home-feedback
-          *ngIf="modal"
-           (close)="modal = false">
+          *ngIf="modal2"
+           (close)="modal2 = false">
           </app-home-feedback>
         </li>
       </ul>

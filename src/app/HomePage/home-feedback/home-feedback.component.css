@@ -45,9 +45,12 @@
 .btn-close{
     position: absolute;
     margin-left: 450px;
-    margin-top: -480px;
+    margin-top: -390px;
     background-color: red;
 }
 .popup3{
     margin-left: 40px;
+}
+.a{
+color: #000 !important;
 }

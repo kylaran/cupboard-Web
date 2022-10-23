@@ -1,7 +1,10 @@
 <app-cupboard-header></app-cupboard-header>
 <app-home-feedback
-*ngIf="modal"
- (close)="modal = false"></app-home-feedback>
+*ngIf="modal2"
+ (close)="modal2 = false"></app-home-feedback>
+ <app-detailspage
+*ngIf="modal1"
+ (close)="modal1 = false"></app-detailspage>
 <app-home-content></app-home-content>
 <app-reviews></app-reviews>
 

@@ -129,7 +129,7 @@ margin-top: 306px;
 }
 .my-furniture{
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   flex-wrap: wrap;
   width: 100%;
   position: relative;
@@ -142,7 +142,7 @@ margin-top: 306px;
 .furniture-text{
   position: absolute;
 top: 33px;
-left: 43px;
+left: 1px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -154,7 +154,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text1{
   position: absolute;
 top: 33px;
-left: 479px;
+left: 465px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -166,7 +166,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text2{
   position: absolute;
 top: 33px;
-left: 915px;
+left: 930px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -178,7 +178,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text3{
   position: absolute;
 top: 416px;
-left: 58px;
+left: 1px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -202,7 +202,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text5{
   position: absolute;
 top: 416px;
-left: 987px;
+left: 1045px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -214,7 +214,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text6{
   position: absolute;
 top: 799px;
-left: 58px;
+left: 1px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -238,7 +238,7 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 .furniture-text8{
   position: absolute;
 top: 799px;
-left: 988px;
+left: 1045px;
 text-transform: uppercase;
 color: white;
 width: 350px;
