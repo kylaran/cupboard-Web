@@ -5,6 +5,7 @@
 .style{
     font-family:Segoe Script;
     color:aliceblue;
+    margin-left: 5px;
 }
 .headercolor{
 background-color: #8b8889!important;
@@ -16,6 +17,13 @@ background-color: #8b8889!important;
 position: absolute;
     right: 15px;
     top: 15px;
+}
+.style2{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 70px;
+    font-family:Segoe Script;
+    color:aliceblue;
 }
 
 

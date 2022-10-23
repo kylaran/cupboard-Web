@@ -75,8 +75,8 @@ color: aliceblue;
     width: auto;
 }
 .my-flex-block{
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     padding-top: 15px;
     }
 .filter{
@@ -91,25 +91,21 @@ color: aliceblue;
   margin-top: 70px;
 }
 .img-container1{
-  width: 60%;
-  height: 45%;
+  width: 200px;
+  height: 200px;
 }
   .img-container2{
-    width: 45%;
-    height: 40%;
+    width: 200px;
+    height: 200px;
   }
     .img-container3{
-      width: 60%;
-      height: 45%;
+      width: 200px;
+      height: 200px;
     }
       .img-container4{
-        width: 45%;
-        height: 40%;
+        width: 200px;
+        height: 200px;
       }
-        .img-container5{
-          width: 45%;
-          height: 40%;
-}
 .my-container{
   display: flex;
   justify-content:space-around;
@@ -129,17 +125,127 @@ margin-top: 306px;
 .img-furniture{
   width: 350px;
   height: 350px;
+  position: relative;
 }
 .my-furniture{
   display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
   width: 100%;
+  position: relative;
 }
 .furniture{
   text-align: center;
   color:aliceblue;
   padding: 50px;
+}
+.furniture-text{
+  position: absolute;
+top: 33px;
+left: 43px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text1{
+  position: absolute;
+top: 33px;
+left: 479px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text2{
+  position: absolute;
+top: 33px;
+left: 915px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text3{
+  position: absolute;
+top: 416px;
+left: 58px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text4{
+  position: absolute;
+top: 416px;
+left: 522px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text5{
+  position: absolute;
+top: 416px;
+left: 987px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text6{
+  position: absolute;
+top: 799px;
+left: 58px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text7{
+  position: absolute;
+top: 799px;
+left: 523px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
+}
+.furniture-text8{
+  position: absolute;
+top: 799px;
+left: 988px;
+text-transform: uppercase;
+color: white;
+width: 350px;
+background: #00000094;
+padding: 10px;
+text-align: center;
+font: bold 24px/34px Helvetica, Sans-Serif;
 }
 
   
