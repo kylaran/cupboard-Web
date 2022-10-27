@@ -12,10 +12,15 @@ import { HomeFeedbackComponent } from './HomePage/home-feedback/home-feedback.co
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ServicesComponent } from './services/services.component';
 import { DetailsPage } from './HomePage/DetailsPage/detailspage';
+import { AppRoutingModule } from './app-routing.module';
+import { GalleryPage } from './HomePage/home-content/gallery-page/gallery';
 
 
 const routes = [
-  {path: '', component: HomepageComponent}
+  {path: '', component: HomepageComponent},
+  { path: 'gallery', component: GalleryPage},
+  {path: 'contacts', component: HomeFeedbackComponent},
+    {path: 'services', component: DetailsPage}
 ]
 
 @NgModule({
@@ -27,7 +32,8 @@ const routes = [
     ReviewsComponent,
     HomeFeedbackComponent,
     ServicesComponent, 
-    DetailsPage
+    DetailsPage,
+    GalleryPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +42,7 @@ const routes = [
     MatIconModule,
     FormsModule, 
     ReactiveFormsModule,
-    
+    AppRoutingModule,
     
   ],
   providers: [],
