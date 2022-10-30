@@ -1,4 +1,4 @@
-.sizeSlide{
+/*.sizeSlide{
     width: 60%;
     height: auto;
   }
@@ -16,7 +16,6 @@
     font-size: 18px;
     background: none;
   
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -53,16 +52,15 @@
     background-color: blue;
     color: #fff;
   }
-  /* You can add global styles to this file, and also import other style files */
   .swiper-container{
     max-width: auto;
     max-height: auto;
-  }
+  }*/
   .my-flex-container{
     display: flex;
   justify-content:space-around;
   flex-wrap: wrap;
-  width: 100%;
+  width: auto;
   padding-left: 65px;
   }
   .outline{
@@ -120,7 +118,7 @@ color: aliceblue;
   text-align: center;
 border: 3px solid white; width: 70%;
 margin:auto;
-margin-top: 306px;  
+margin-top: 50px;  
 }
 .img-furniture{
   width: 350px;
@@ -138,11 +136,12 @@ margin-top: 306px;
   text-align: center;
   color:aliceblue;
   padding: 50px;
+  margin-top: 200px;
 }
 .furniture-text{
   position: absolute;
-top: 33px;
-left: 1px;
+top: 8px;
+left: 8px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -153,8 +152,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text1{
   position: absolute;
-top: 33px;
-left: 465px;
+top: 8px;
+left: 374px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -165,8 +164,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text2{
   position: absolute;
-top: 33px;
-left: 930px;
+top: 8px;
+left: 740px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -177,8 +176,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text3{
   position: absolute;
-top: 416px;
-left: 1px;
+top: 375px;
+left: 8px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -189,8 +188,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text4{
   position: absolute;
-top: 416px;
-left: 522px;
+top: 375px;
+left: 374px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -201,8 +200,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text5{
   position: absolute;
-top: 416px;
-left: 1045px;
+top: 375px;
+left: 740px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -213,8 +212,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text6{
   position: absolute;
-top: 799px;
-left: 1px;
+top: 742px;
+left: 8px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -225,8 +224,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text7{
   position: absolute;
-top: 799px;
-left: 523px;
+top: 742px;
+left: 374px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -237,8 +236,8 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 }
 .furniture-text8{
   position: absolute;
-top: 799px;
-left: 1045px;
+top: 742px;
+left: 740px;
 text-transform: uppercase;
 color: white;
 width: 350px;
@@ -247,6 +246,12 @@ padding: 10px;
 text-align: center;
 font: bold 24px/34px Helvetica, Sans-Serif;
 }
+table{
+ margin-left: 11%;
+ width: auto;
+}
+
+
 
   
   

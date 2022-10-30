@@ -32,7 +32,7 @@
   }
   
   .swiper-slide img {
-    display: block;
+    display:block;
     width: auto;
     height: auto;
     max-width:1200px ;
@@ -60,4 +60,3 @@
   }
   .swiper-wrapper{
         width: auto;}
-        

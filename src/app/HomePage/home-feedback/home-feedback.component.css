@@ -8,6 +8,7 @@
     opacity: 75%;
     margin-top: -150px;
     margin-left: -600px;
+    z-index: 999999;
 }
 .popup{
     position: absolute;
@@ -18,6 +19,8 @@
     padding: 20px;
     transform: translate(-50%, 50%);
     margin-top: 0%;
+    border-radius: 10px;
+    
 }
 .popup-form{
     display:flex;
