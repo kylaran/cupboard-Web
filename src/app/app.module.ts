@@ -14,7 +14,7 @@ import { ServicesComponent } from './services/services.component';
 import { DetailsPage } from './HomePage/DetailsPage/detailspage';
 import { AppRoutingModule } from './app-routing.module';
 import { GalleryPage } from './HomePage/home-content/gallery-page/gallery';
-
+import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
 
 const routes = [
   {path: '', component: HomepageComponent},
@@ -43,7 +43,7 @@ const routes = [
     FormsModule, 
     ReactiveFormsModule,
     AppRoutingModule,
-    
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

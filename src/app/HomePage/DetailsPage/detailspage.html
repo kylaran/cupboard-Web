@@ -1,5 +1,7 @@
 <div class="popup-bg">
-    <div class="popup">
+    
+    <div class="popup" @popup>
+        
          <div class="contacts">
     <h1>Проектирование корпусной и встраиваемой мебели</h1>
         «Е2» специализируется на изготовлении мебели на заказ и, конечно же, предлагает такую услугу как проектирование мебели. 
@@ -20,9 +22,12 @@
     <nav class="navbar">
         <button  class="button btn-close"(click)="close.emit()"></button>
         </nav>
-        <div class="furniture"> <h2>Наших проекты:</h2>
-              <div>
-                <img class="img-furniture" src="/assets/projects/f2bf6a_8a54877693f244588675a646d201a630_mv2_d_4819_3264_s_4_2.jpg" alt="">
+        <div class="furniture" > <h2>Наших проекты:</h2>
+              <div @img-furniture>
+
+                <img class="img-furniture " @img-furniture src="/assets/projects/f2bf6a_8a54877693f244588675a646d201a630_mv2_d_4819_3264_s_4_2.jpg" alt="">
+                <!--<img class="img-furniture1"  src="/assets/projects/remont-kukhni-do-i-posle_5e345b1c3c339.jpg" alt="">
+                <img class="img-furniture2" src="/assets/projects/2.jpg" alt="">-->
               </div>
     </div>
 </div>

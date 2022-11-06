@@ -10,18 +10,18 @@ import { SwiperComponent } from 'swiper/angular';
 
 export class HomeContentComponent implements OnInit {
 
-  config: SwiperOptions = {
-    slidesPerView:1,
-setWrapperSize:true,
-    navigation:true,
-    spaceBetween: 30
-  };
+//  config: SwiperOptions = {
+  //  slidesPerView:1,
+//setWrapperSize:true,
+  //  navigation:true,
+    //spaceBetween: 30
+  //};
 
   constructor() { }
-
+  
   ngOnInit(): void {
   }
-  slides(i: number) {
-    return new Array(i);
+  //slides(i: number) {
+    //return new Array(i);
 }
-}
+
