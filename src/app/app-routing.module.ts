@@ -8,9 +8,8 @@ import { HomeFeedbackComponent } from "./HomePage/home-feedback/home-feedback.co
 const page: Routes = [
     {path: '', component: HomeContentComponent},
     {path: 'contacts', component: HomeFeedbackComponent},
-    {path: 'services', component: DetailsPage}
+    {path: 'services', component: DetailsPage},
 ]
-
 @NgModule({
 imports:[RouterModule],
 exports:[RouterModule]

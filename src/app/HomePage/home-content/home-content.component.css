@@ -73,8 +73,8 @@ color: aliceblue;
     width: auto;
 }
 .my-flex-block{
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding-top: 15px;
     }
 .filter{
@@ -106,7 +106,7 @@ color: aliceblue;
       }
 .my-container{
   display: flex;
-  justify-content:space-around;
+  justify-content:space-between;
   width: 100%;
 }
 .container{
@@ -249,10 +249,91 @@ font: bold 24px/34px Helvetica, Sans-Serif;
 table{
  margin-left: 11%;
  width: auto;
+ max-width: 700px;
+ min-width: 300px;
+ }
+ @media 
+(max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+ 
+    table, td, tr { 
+        display: block; 
+    }
+    
+    .img-furniture{
+      width: 250px;
+      height: 250px;
+      position: block;
+      left: -70px;
+  }
+  .furniture-text{
+    width: 250px;
+    left: -62px;
+  }
+  .furniture-text1{
+    width: 250px;
+    left: -62px;
+    top:275px
+  }
+  .furniture-text2{
+    width: 250px;
+    left: -62px;
+    top: 543px
+  }
+  .furniture-text3{
+    width: 250px;
+    left: -62px;
+    top:808px
+  }
+  .furniture-text4{
+    width: 250px;
+    left: -62px;
+    top: 1075px
+  }
+  .furniture-text5{
+    width: 250px;
+    left: -62px;
+    top: 1343px
+  }
+  .furniture-text6{
+    width: 250px;
+    left: -62px;
+    top: 1610px
+  }
+  .furniture-text7{
+    width: 250px;
+    left: -62px;
+    top: 1875px
+  }
+  .furniture-text8{
+    width: 250px;
+    left: -62px;
+    top: 2143px
+  }
+  .img-container1{
+    width: 100px;
+    height: 100px;
+  }
+    .img-container2{
+      width: 100px;
+      height: 100px;
+    }
+      .img-container3{
+        width: 100px;
+        height: 100px;
+      }
+        .img-container4{
+          width: 100px;
+          height: 100px;
+        }
+        .my-container{
+          flex-flow: column wrap;
+        }
+        .my-flex-container{
+          flex-flow: column;
+        }
+
 }
-
-
-
   
   
   

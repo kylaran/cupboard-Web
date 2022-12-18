@@ -10,17 +10,18 @@ import { ReviewsComponent } from './HomePage/reviews/reviews.component';
 import {MatIconModule} from '@angular/material/icon';
 import { HomeFeedbackComponent } from './HomePage/home-feedback/home-feedback.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ServicesComponent } from './services/services.component';
 import { DetailsPage } from './HomePage/DetailsPage/detailspage';
 import { AppRoutingModule } from './app-routing.module';
 import { GalleryPage } from './HomePage/home-content/gallery-page/gallery';
-import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { AdminLayoutComponent } from './admin/shared/componets/admin-layout/admin-layout.component';
 
 const routes = [
   {path: '', component: HomepageComponent},
   { path: 'gallery', component: GalleryPage},
   {path: 'contacts', component: HomeFeedbackComponent},
     {path: 'services', component: DetailsPage}
+
 ]
 
 @NgModule({
@@ -31,9 +32,9 @@ const routes = [
     CupboardHeaderComponent,
     ReviewsComponent,
     HomeFeedbackComponent,
-    ServicesComponent, 
     DetailsPage,
-    GalleryPage
+    GalleryPage,
+    AdminLayoutComponent
   ],
   imports: [
     BrowserModule,
