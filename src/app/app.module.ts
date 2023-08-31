@@ -14,7 +14,6 @@ import { DetailsPage } from './HomePage/DetailsPage/detailspage';
 import { AppRoutingModule } from './app-routing.module';
 import { GalleryPage } from './HomePage/home-content/gallery-page/gallery';
 import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { AdminLayoutComponent } from './admin/shared/componets/admin-layout/admin-layout.component';
 
 const routes = [
   {path: '', component: HomepageComponent},
@@ -34,7 +33,6 @@ const routes = [
     HomeFeedbackComponent,
     DetailsPage,
     GalleryPage,
-    AdminLayoutComponent
   ],
   imports: [
     BrowserModule,
