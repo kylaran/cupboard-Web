@@ -1,0 +1,34 @@
+<!doctype html>
+<nav class="navbar navbar-expand-lg navbar-light bg-light headercolor">
+  <div class="hader-item"><h1 class="style">Е2</h1> <p class="style2">Умный подход к проектированию и <br> созданию мебели</p></div>
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" mdbCollapse>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active"   routerLink="/" >Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/gallery">Галерея</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active"  (click)="modal1 = true">Услуги</a>
+          <app-detailspage
+          *ngIf="modal1"
+           (close)="modal1 = false">
+          </app-detailspage>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" (click)="modal2 = true">Контакты</a>
+          <app-home-feedback
+          *ngIf="modal2"
+           (close)="modal2 = false">
+          </app-home-feedback>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+

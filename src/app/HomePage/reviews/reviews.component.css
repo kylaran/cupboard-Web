@@ -1,0 +1,9 @@
+.star{
+color: yellow;
+}
+.stars{
+    display: flex;
+}
+.input-group{
+    padding: 10px;
+}

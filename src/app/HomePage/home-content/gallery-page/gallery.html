@@ -1,0 +1,16 @@
+<app-cupboard-header></app-cupboard-header>
+<div>
+    <swiper [config]="config">
+      <ng-template swiperSlide *ngFor="let in of slides(19); let i = index">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="sizeSlide" src="/assets/img/slide{{i+1}}.jpg" style="width:100%;"> </div>
+      </div>
+    </ng-template>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+  </swiper>
+  </div>
+  <router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+.scroll-div{
+    max-height: 722px;
+    overflow-y: scroll;
+}
+.scroll-div::-webkit-scrollbar{
+    display: none;
+}
+.container{
+    max-height: 100%;
+    max-width: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+

@@ -1,21 +1,52 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { TitleModule } from 'src/title/title.module';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomepageComponent } from './HomePage/homepage';
+import { HomeContentComponent } from './HomePage/home-content/home-content.component';
+import { CupboardHeaderComponent } from './HomePage/cupboard-header/cupboard-header.component';
+import { RouterModule } from '@angular/router';
+import {SwiperModule} from 'swiper/angular';
+import { ReviewsComponent } from './HomePage/reviews/reviews.component';
+import {MatIconModule} from '@angular/material/icon';
+import { HomeFeedbackComponent } from './HomePage/home-feedback/home-feedback.component'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DetailsPage } from './HomePage/DetailsPage/detailspage';
+import { AppRoutingModule } from './app-routing.module';
+import { GalleryPage } from './HomePage/home-content/gallery-page/gallery';
+import{BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+const routes = [
+  {path: '', component: HomepageComponent},
+  { path: 'gallery', component: GalleryPage},
+  {path: 'contacts', component: HomeFeedbackComponent},
+    {path: 'services', component: DetailsPage}
+
+]
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomepageComponent,
+    HomeContentComponent,
+    CupboardHeaderComponent,
+    ReviewsComponent,
+    HomeFeedbackComponent,
+    DetailsPage,
+    GalleryPage,
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(routes),
+    SwiperModule,
+    MatIconModule,
+    FormsModule, 
+    ReactiveFormsModule,
     AppRoutingModule,
-    TitleModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
 })
 export class AppModule { }
 

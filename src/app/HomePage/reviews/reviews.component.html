@@ -1,0 +1,34 @@
+<div>
+    <div ng-controller="MyCtrl" >
+        <div ng-repeat="review in reviews">
+        </div>
+        <form>
+             <div class="input-group">
+             <div><span >Name</span>
+             <input  type="text" ng-model="review.name"/></div>
+             <div><span >E-mail</span>
+             <input type="email" ng-model="review.email"/></div>
+             <div class = "stars">
+            <div (click)="click1Star()">
+             <mat-icon class="star">{{stars[0].star}}</mat-icon>
+            </div>
+            <div (click)="click2Star()">
+              <mat-icon class="star">{{stars[1].star}}</mat-icon>
+            </div>
+            <div (click)="click3Star()">
+             <mat-icon class="star">{{stars[2].star}}</mat-icon>
+            </div>
+            <div (click)="click4Star()">
+               <mat-icon class="star">{{stars[3].star}}</mat-icon>
+              </div>
+              <div (click)="click5Star()">
+               <mat-icon class="star">{{stars[4].star}}</mat-icon>
+              </div>
+              </div>
+             </div>
+        </form>
+        <textarea class="form-control" rows="5" ng-model="review.message">
+        </textarea>
+    <input type="submit" class="btn btn-block btn-success" ng-click="addReview()" value="Submit review" />
+    </div>
+</div>
